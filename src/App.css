@@ -1,0 +1,179 @@
+
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  color: #FFF;
+  /* padding: 3rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; */
+}
+
+.logo {
+  width: 5rem;
+  border-radius: 50%;
+  background-color: none !important;
+}
+.w90rem {
+  max-width: 90rem;
+}
+.w100 {
+  width: 100%;
+}
+.w50 {
+  width: 50%;
+}
+.w25 {
+  width: 25%;
+}
+.mxAuto {
+  margin: 0 auto;
+}
+.mx1rem {
+  margin: 0 1rem;
+}
+.myAuto {
+  margin: auto 0;
+}
+.mt3rem {
+  margin-top: 3rem;
+}
+.p1rem {
+  padding: 1rem;
+}
+.p3rem {
+  padding: 3rem;
+}
+.gap3rem {
+  gap: 3rem;
+}
+.fs1-5rem {
+  font-size: 1.5rem;
+}
+.fs3rem {
+  font-size: 3rem;
+}
+.fw700 {
+  font-weight: 700;
+}
+.textEnd {
+  text-align: end;
+}
+.dFlex {
+  display: flex;
+}
+.flexC {
+  flex-direction: column;
+}
+.spaceBetween {
+  justify-content: space-between;
+}
+.justifyCenter {
+  justify-content: center;
+}
+.alignCenter {
+  align-items: center;
+}
+.alignSelfCenter {
+  align-self:center;
+}
+.justifySelfCenter {
+  justify-self: center;
+}
+.displayGrid {
+  display: grid;
+}
+.displayInGrid {
+  display: inline-grid;
+}
+/* .navbar {
+  width: 50%;
+} */
+
+
+
+a {
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  text-decoration: none;
+  color: #F9F9F9;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  transition: 0.3s ease;
+}
+
+a:hover {
+  background: #2e7d32;
+  color: #fff;
+}
+
+.searchBox {
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  background-image: url('./assets/search.svg');
+  background-repeat: no-repeat;
+  background-position: 0.5rem;
+  border-radius: 1.5rem;
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  border: 1px solid rgba(0,128,0,0.4);
+}
+
+.container {
+  height: 100vh;
+}
+
+.heroArea {
+  background-image: linear-gradient(to right, rgba(0,0,0,0.75), rgba(0,0,0,0.2)), url('./assets/heroBackground.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+
+.heroCard {
+  background: rgba(255,255,255,0.1);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+  backdrop-filter: blur(8px);
+  border-radius: 16px;
+  font-weight: 600;
+  color: #F9F9F9;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.85);
+  color: #111;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background: #2e7d32;
+  color: #fff;
+}
+
+.footer {
+  height: 10rem;
+}
+
+.footerList {
+  list-style: none;
+  padding: 1rem;
+  font-size: 1.25rem;
+  columns: 2;
+
+}
+
+.footerList li {
+  padding: 0 2rem 0.5rem;
+}
