@@ -1,7 +1,8 @@
+import jumanjiLogo from "../assets/jumanjiLogo.pnj";
 export default function Footer() {
     return <div className="footer w90rem dFlex spaceBetween mxAuto mt3rem">
         <div>
-            <div className="w25 p1rem"><a href="#"><img src="../src/assets/jumanjiLogo.png" alt="Jumanji Logo" className="logo"/></a></div>
+            <div className="w25 p1rem"><a href="#"><img src={jumanjiLogo} alt="Jumanji Logo" className="logo"/></a></div>
         </div>
         <div>
             <ul className="footerList">
