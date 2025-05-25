@@ -1,4 +1,4 @@
-import jumanjiLogo from "../assets/jumanjiLogo.pnj";
+import jumanjiLogo from "../assets/jumanjiLogo.png";
 export default function Footer() {
     return <div className="footer w90rem dFlex spaceBetween mxAuto mt3rem">
         <div>
