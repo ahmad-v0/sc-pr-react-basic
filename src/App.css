@@ -89,6 +89,7 @@
 .displayGrid {
   display: grid;
 }
+
 .displayInGrid {
   display: inline-grid;
 }
@@ -160,6 +161,44 @@ a:hover {
 .btn:hover {
   background: #2e7d32;
   color: #fff;
+}
+
+.guideCard {
+  width: 100%;
+  text-align: center;
+  border-radius: 1rem;
+}
+
+.guideCardImg {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.guideSection {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  padding: 5rem 0;
+}
+
+.btnGuideCard {
+  padding: 0.5rem 1.2rem;
+  margin: 0.5rem;
+  border-radius: 1.25rem;
+  border: 1px solid #29AB87;
+  /* outline: 2px solid #FFCC00; */
+}
+
+.btnGuideCard:hover {
+  background-color: #00755E;
+  transform: scale(2);
+}
+
+.btnGuideCardPrimary {
+  background-color: #29AB87;
+}
+
+.btnGuideCardSecondary {
+  color: black;
 }
 
 .footer {

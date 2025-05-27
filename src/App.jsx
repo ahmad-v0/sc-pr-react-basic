@@ -3,9 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import HeroArea from './components/HeroArea.jsx'
-import Container from './components/Container.jsx'
-import Header from './components/Header'
-import Name from './components/Name'
+import GuideSection from './components/GuideSection.jsx'
 import Footer from './components/footer.jsx'
 
 function App() {
@@ -14,6 +12,7 @@ function App() {
   return (
     <>
       <HeroArea />
+      <GuideSection />
       <Footer />
     </>
   )

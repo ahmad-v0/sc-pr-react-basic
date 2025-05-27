@@ -19,7 +19,7 @@ export default function Footer() {
             <h3>Subscribe</h3>
             <div>
             <input type="email" name="email" className="" />
-            <button type="submit">Send</button>
+            <button type="submit" className="btnGuideCard btnGuideCardPrimary">Send</button>
             </div>
             
         </div>
