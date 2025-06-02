@@ -4,15 +4,16 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import HeroArea from './components/HeroArea.jsx'
 import GuideSection from './components/GuideSection.jsx'
+import CommunitySection from './components/CommunitySection.jsx'
 import Footer from './components/footer.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <HeroArea />
       <GuideSection />
+      <CommunitySection />
       <Footer />
     </>
   )
